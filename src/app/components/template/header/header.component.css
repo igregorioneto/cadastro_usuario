@@ -1,0 +1,14 @@
+.red {
+    margin-left: 5px;
+    color: #a71b1b;
+}
+
+.background {
+    background-color: rgb(228, 228, 228);
+    margin-bottom: 50px;
+}
+
+span {
+    text-transform: uppercase;
+    margin-left: 40px;
+}

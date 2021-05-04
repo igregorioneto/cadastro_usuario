@@ -1,0 +1,21 @@
+.container-list {
+    margin-left: 40px;
+}
+
+.cabecalho-list {
+    display: flex;
+}
+
+.title-list h4{
+    font-size: 1.9rem;
+    color: rgb(6, 104, 161);
+    margin-top: 20px;
+}
+
+.button-add {
+    margin-left: 30px;
+}
+
+.button-add button {
+    background-color: rgb(24, 118, 161);
+}
