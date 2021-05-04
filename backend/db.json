@@ -1,0 +1,25 @@
+{
+    "usuarios" : [
+        {
+            "nome": "Guilhermino Azevedo",
+            "idade": 28,
+            "cpf": "12332145600",
+            "telefone": "(84)95552-2299",
+            "email": "guilhermino_azevedo@gmail.com"
+        },
+        {
+            "nome": "Lucia Ferreira",
+            "idade": 37,
+            "cpf": "12332187699",
+            "telefone": "(84)96553-0001",
+            "email": "lucia_ferreira@gmail.com"
+        },
+        {
+            "nome": "Sabrina Costa",
+            "idade": 21,
+            "cpf": "00332233611",
+            "telefone": "(84)97752-8881",
+            "email": "sabrina_costa@gmail.com"
+        }
+    ]
+}
