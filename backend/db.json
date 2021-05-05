@@ -1,6 +1,7 @@
 {
     "usuarios" : [
         {
+            "id": 1,
             "nome": "Guilhermino Azevedo",
             "idade": 28,
             "cpf": "12332145600",
@@ -8,6 +9,7 @@
             "email": "guilhermino_azevedo@gmail.com"
         },
         {
+            "id": 2,
             "nome": "Lucia Ferreira",
             "idade": 37,
             "cpf": "12332187699",
@@ -15,6 +17,7 @@
             "email": "lucia_ferreira@gmail.com"
         },
         {
+            "id": 3,
             "nome": "Sabrina Costa",
             "idade": 21,
             "cpf": "00332233611",
