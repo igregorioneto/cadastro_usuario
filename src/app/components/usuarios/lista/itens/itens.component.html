@@ -1,0 +1,14 @@
+<mat-list>
+    <mat-list-item class="informacao-nome" *ngFor="let usuario of usuarios">
+      <h3 matLine>{{usuario.nome}}</h3>
+      <p matLine class="informacao-cpf">
+        <span class="demo-2"> {{usuario.cpf | cpf}} </span>
+        <button mat-icon-button class="red">
+            <mat-icon>highlight_off</mat-icon>
+          </button>
+          <button mat-icon-button class="blue">
+            <mat-icon>privacy_tip</mat-icon>
+          </button>
+      </p>
+    </mat-list-item>
+</mat-list>
