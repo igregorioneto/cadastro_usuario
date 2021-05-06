@@ -1,28 +1,44 @@
 {
-    "usuarios" : [
-        {
-            "id": 1,
-            "nome": "Guilhermino Azevedo",
-            "idade": 28,
-            "cpf": "12332145600",
-            "telefone": "(84)95552-2299",
-            "email": "guilhermino_azevedo@gmail.com"
-        },
-        {
-            "id": 2,
-            "nome": "Lucia Ferreira",
-            "idade": 37,
-            "cpf": "12332187699",
-            "telefone": "(84)96553-0001",
-            "email": "lucia_ferreira@gmail.com"
-        },
-        {
-            "id": 3,
-            "nome": "Sabrina Costa",
-            "idade": 21,
-            "cpf": "00332233611",
-            "telefone": "(84)97752-8881",
-            "email": "sabrina_costa@gmail.com"
-        }
-    ]
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Guilhermino Azevedo",
+      "idade": 28,
+      "cpf": "12332145600",
+      "telefone": "(84)95552-2299",
+      "email": "guilhermino_azevedo@gmail.com"
+    },
+    {
+      "id": 2,
+      "nome": "Lucia Ferreira",
+      "idade": 37,
+      "cpf": "12332187699",
+      "telefone": "(84)96553-0001",
+      "email": "lucia_ferreira@gmail.com"
+    },
+    {
+      "id": 3,
+      "nome": "Sabrina Costa",
+      "idade": 21,
+      "cpf": "00332233611",
+      "telefone": "(84)97752-8881",
+      "email": "sabrina_costa@gmail.com"
+    },
+    {
+      "nome": "Joaquim Ribeiro",
+      "idade": "34",
+      "cpf": "12331666444",
+      "telefone": "(85)95555-5574",
+      "email": "joaquimR@gmail.com",
+      "id": 4
+    },
+    {
+      "nome": "Maria do Socorro",
+      "idade": "19",
+      "cpf": "55445555623",
+      "telefone": "(84)98816-1655",
+      "email": "maria_do_socorro@teste.com",
+      "id": 5
+    }
+  ]
 }
