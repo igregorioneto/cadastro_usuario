@@ -16,6 +16,10 @@ export class UsuarioService {
     return this.http.get<Usuario[]>(this.baseURL)
   }
 
+  setUsuarios(usuario: Usuario): Observable<Usuario> {
+    return this.http.post<Usuario>(this.baseURL, usuario)
+  }
+
   showConsole(msg: String): void {
     console.log(msg)
   }

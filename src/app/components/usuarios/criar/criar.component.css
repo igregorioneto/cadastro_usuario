@@ -1,0 +1,31 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-criar {
+    margin-left: 40px;
+}
+
+.input {
+    min-width: 300px;
+    background-color: rgba(0,0,0,0) !important;
+}
+
+/*
+CSS para input personalizado
+.input input{
+    min-width: 300px;
+}
+
+.input input:focus {
+    box-shadow: 0 0 0 0;
+    border-bottom: 2px solid rgb(5, 92, 150);
+    outline: 0;
+}
+*/
+
+.button-criar button {
+    margin-right: 10px;
+}

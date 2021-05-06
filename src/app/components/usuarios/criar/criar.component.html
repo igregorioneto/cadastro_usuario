@@ -1,1 +1,50 @@
-<p>criar works!</p>
+<div class="container-criar">
+    <div class="cabecalho-criar">
+
+        <mat-form-field appearance="fill" class="input">
+            <mat-label>Nome</mat-label>
+            <input matInput 
+            [(ngModel)]="usuario.nome" name="nome">
+         </mat-form-field>
+
+         <mat-form-field appearance="fill" class="input">
+            <mat-label>Idade</mat-label>
+            <input matInput
+            [(ngModel)]="usuario.idade" name="idade">
+         </mat-form-field>
+
+         <mat-form-field appearance="fill" class="input">
+            <mat-label>CPF</mat-label>
+            <input matInput
+            [(ngModel)]="usuario.cpf" name="cpf">
+         </mat-form-field>
+
+         <mat-form-field appearance="fill" class="input">
+            <mat-label>Telefone</mat-label>
+            <input matInput
+            [(ngModel)]="usuario.telefone" name="telefone">
+         </mat-form-field>
+
+         <mat-form-field appearance="fill" class="input">
+            <mat-label>E-mail</mat-label>
+            <input matInput
+            [(ngModel)]="usuario.email">
+         </mat-form-field>
+
+         <div class="button-criar">
+            <button 
+            mat-raised-button 
+            (click)="cancelar()">
+                Cancelar
+            </button>
+
+            <button 
+            mat-raised-button 
+            (click)="cadastrarUsuario()"
+            color="primary">
+                Cadastrar
+            </button>
+          </div>
+
+    </div>
+</div>

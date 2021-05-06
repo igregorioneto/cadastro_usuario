@@ -15,10 +15,15 @@ import { ListaComponent } from './components/usuarios/lista/lista.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatListModule } from '@angular/material/list';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { FormsModule } from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
 
 import { CriarComponent } from './components/usuarios/criar/criar.component';
 import { ItensComponent } from './components/usuarios/lista/itens/itens.component';
 import { CpfPipe } from './pipes/cpf.pipe';
+import { DeletarComponent } from './components/usuarios/deletar/deletar.component';
+import { AtualizarComponent } from './components/usuarios/atualizar/atualizar.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +32,9 @@ import { CpfPipe } from './pipes/cpf.pipe';
     ListaComponent,
     CriarComponent,
     ItensComponent,
-    CpfPipe
+    CpfPipe,
+    DeletarComponent,
+    AtualizarComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +45,10 @@ import { CpfPipe } from './pipes/cpf.pipe';
     MatButtonModule,
     MatListModule,
     MatGridListModule,
-    HttpClientModule
+    HttpClientModule,
+    MatFormFieldModule,
+    FormsModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
