@@ -20,6 +20,14 @@ export class UsuarioService {
     return this.http.post<Usuario>(this.baseURL, usuario)
   }
 
+  getUsuarioId(id: number): Observable<Usuario> {
+    return this.http.get<Usuario>(`${this.baseURL}/${id}`)
+  }
+
+  deletarUsuario(id: number):Observable<Usuario> {
+    return this.http.delete<Usuario>(`${this.baseURL}/${id}`)
+  }
+
   showConsole(msg: String): void {
     console.log(msg)
   }

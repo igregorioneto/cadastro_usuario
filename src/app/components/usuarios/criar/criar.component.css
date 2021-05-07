@@ -11,6 +11,7 @@
 .input {
     min-width: 300px;
     background-color: rgba(0,0,0,0) !important;
+    display: block;
 }
 
 /*

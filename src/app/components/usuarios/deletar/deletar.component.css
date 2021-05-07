@@ -1,0 +1,32 @@
+.container-excluir {
+    margin-left: 40px;
+}
+
+mat-card-title {
+    color: rgba(192, 44, 17, 0.932);
+}
+
+mat-card-actions {
+    margin-top: 40px;
+}
+
+mat-card-actions button {
+    margin-right: 10px;
+}
+
+.container-mat-card {
+    background-color: lightgray;
+    max-width: 400px;
+}
+
+mat-card-content {
+    border: 2px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px 0px 0px 20px;
+}
+
+mat-card-content mat-card-title {
+    color: rgba(51, 48, 48, 0.918);
+}

@@ -9,8 +9,8 @@ import { DeletarComponent } from './components/usuarios/deletar/deletar.componen
 const routes: Routes = [
   {path: '', component: ListaComponent},
   {path: 'criar', component: CriarComponent},
-  {path: 'atualizar', component: AtualizarComponent},
-  {path: 'deletar', component: DeletarComponent}
+  {path: 'atualizar/:id', component: AtualizarComponent},
+  {path: 'deletar/:id', component: DeletarComponent}
 ];
 
 @NgModule({

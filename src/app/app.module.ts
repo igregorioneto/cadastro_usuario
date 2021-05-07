@@ -18,6 +18,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
+import { MatCardModule } from '@angular/material/card';
 
 import { CriarComponent } from './components/usuarios/criar/criar.component';
 import { ItensComponent } from './components/usuarios/lista/itens/itens.component';
@@ -48,7 +49,8 @@ import { AtualizarComponent } from './components/usuarios/atualizar/atualizar.co
     HttpClientModule,
     MatFormFieldModule,
     FormsModule,
-    MatInputModule
+    MatInputModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

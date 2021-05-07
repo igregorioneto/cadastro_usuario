@@ -3,10 +3,10 @@
       <h3 matLine>{{usuario.nome}}</h3>
       <p matLine class="informacao-cpf">
         <span class="demo-2"> {{usuario.cpf | cpf}} </span>
-          <button mat-icon-button class="red" routerLink='/deletar'>
+          <button mat-icon-button class="red" routerLink='/deletar/{{usuario.id}}'>
             <mat-icon>highlight_off</mat-icon>
           </button>
-          <button mat-icon-button class="blue" routerLink="/atualizar">
+          <button mat-icon-button class="blue" routerLink="/atualizar/{{usuario.id}}">
             <mat-icon>privacy_tip</mat-icon>
           </button>
       </p>
