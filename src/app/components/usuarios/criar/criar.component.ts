@@ -13,7 +13,7 @@ export class CriarComponent implements OnInit {
 
   usuario: Usuario = {
     nome: '',
-    idade: 0,
+    idade: 18,
     cpf: '',
     telefone: '',
     email: ''

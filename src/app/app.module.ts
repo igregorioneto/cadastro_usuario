@@ -25,6 +25,7 @@ import { ItensComponent } from './components/usuarios/lista/itens/itens.componen
 import { CpfPipe } from './pipes/cpf.pipe';
 import { DeletarComponent } from './components/usuarios/deletar/deletar.component';
 import { AtualizarComponent } from './components/usuarios/atualizar/atualizar.component';
+import { TelefonePipe } from './pipes/telefone.pipe';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { AtualizarComponent } from './components/usuarios/atualizar/atualizar.co
     ItensComponent,
     CpfPipe,
     DeletarComponent,
-    AtualizarComponent
+    AtualizarComponent,
+    TelefonePipe
   ],
   imports: [
     BrowserModule,

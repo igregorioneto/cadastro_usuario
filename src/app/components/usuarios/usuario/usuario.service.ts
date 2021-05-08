@@ -24,8 +24,12 @@ export class UsuarioService {
     return this.http.get<Usuario>(`${this.baseURL}/${id}`)
   }
 
-  deletarUsuario(id: number):Observable<Usuario> {
+  deletarUsuario(id: number): Observable<Usuario> {
     return this.http.delete<Usuario>(`${this.baseURL}/${id}`)
+  }
+
+  atualizarUsuario(id:number, usuario: Usuario): Observable<Usuario> {
+    return this.http.put<Usuario>(`${this.baseURL}/${id}`, usuario)
   }
 
   showConsole(msg: String): void {

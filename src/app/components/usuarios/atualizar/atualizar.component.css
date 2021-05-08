@@ -1,0 +1,19 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-atualizar {
+    margin-left: 40px;
+}
+
+.input {
+    min-width: 300px;
+    background-color: rgba(0,0,0,0) !important;
+    display: block;
+}
+
+.button-atualizar button{
+    margin-right: 10px;
+}
