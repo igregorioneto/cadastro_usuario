@@ -39,6 +39,22 @@
       "telefone": "(84)98816-1655",
       "email": "maria_do_socorro@teste.com",
       "id": 5
+    },
+    {
+      "nome": "José Luiz d Silva",
+      "idade": 18,
+      "cpf": "11111111111",
+      "telefone": "(88)988888888",
+      "email": "teriani@teste.com",
+      "id": 6
+    },
+    {
+      "nome": "Testando novo usuario",
+      "idade": 18,
+      "cpf": "12331664444",
+      "telefone": "84988888888",
+      "email": "testandonovousuario@teste.com",
+      "id": 8
     }
   ]
 }
